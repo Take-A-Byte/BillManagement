@@ -1,0 +1,18 @@
+{
+  "name": "billgeneration_electron",
+  "version": "1.0.0",
+  "description": "helps in bill generation and managing bills",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "glyphicons": "^0.2.0"
+  }
+}
