@@ -5,12 +5,11 @@
     "devDependencies": {
         "bootstrap": "^4.4.1",
         "bootstrap-icons": "^1.0.0-alpha2",
-        "electron": "^8.1.0"
+        "electron": "^8.1.0",
+        "p5": "^1.0.0"
     },
     "scripts": {
         "start": "electron ."
     },
-    "dependencies": {
-        "p5": "^1.0.0"
-    }
+    "dependencies": {}
 }
