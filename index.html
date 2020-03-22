@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generate Bill</title>
+    <script src="js/util.js"></script>
+</head>
+
+<body>
+    <label for="invoiceNumber">Invoice Number:</label>
+    <input type="text" name="invoiceNumber" id="invoiceNumberInput">
+    <br>
+    <label for="dateInput">Select Date</label>
+    <input type="date" name="dateInput" id="dateInput">
+    <br>
+    <label for="partyName">Party Name:</label>
+    <input type="text" name="partyName" id="partyNameInput">
+    <br>
+    
+    <label for="gstn">GSTN:</label>
+
+    <input type="text" name="gstn" id="gstnInput">
+    <br>
+    <label for="gstRate">Select GST Rate</label><br>
+    <input type="radio" name="gstRate" value="5" id = "rate_5"> 5%<br>
+    <input type="radio" name="gstRate" value="12"id = "rate_12"> 12%<br>
+    <input type="radio" name="gstRate" value="18"id = "rate_18"> 18%<br>
+    <input type="radio" name="gstRate" value="28"id = "rate_28"> 28%<br>
+    <!-- <img src="download.jpg" alt=""> -->
+    <label for="amount">Amount:</label>
+    <input type="text" name="amount" id="amountInput">
+    <br>
+    <label for="totalAmount">Total Amount</label>
+    <input type="text" name="totalAmount" id="totalAmountInput">
+    <br>
+
+    <button id="calculateButton" onclick="calculate()">Calculate</button>
+
+
+</body>
+
+</html>
